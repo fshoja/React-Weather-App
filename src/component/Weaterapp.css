@@ -39,11 +39,11 @@ header input{
     box-shadow: 0 5px 15px rgba(0,0,0,.2);
 }
 
-.search-box input::placeholder{
+header input::placeholder{
     color: rgba(255,255,255,.7);
 }
 
-.search-box input:focus{
+header input:focus{
     background: rgba(255,255,255,.25);
     box-shadow: 0 0 15px rgba(255,255,255,.35);
     transform: scale(1.02);
