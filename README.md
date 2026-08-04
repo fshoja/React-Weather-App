@@ -1,27 +1,35 @@
 # React Weather App 🌤️
 
-A modern and responsive weather application built with React.js that displays real-time weather information using OpenWeather API.
+A modern and responsive weather application built with React.js and Vite.
 
-## Features
+The application allows users to search for cities and view real-time weather information using the Open-Meteo API.
+
+## 🌐 Live Demo
+
+https://react-weather-app-psi-ten.vercel.app/
+
+
+## 🚀 Features
 
 - Search weather by city name
 - Display current temperature
-- Show weather condition
-- Show minimum and maximum temperature
-- Display country information
-- Responsive design
-- Real-time weather data from API
+- Show city and country information
+- Display minimum and maximum temperature
+- Real-time weather data
+- Responsive design for desktop and mobile
+- Fast and lightweight application
 
-## Technologies
+## 🛠️ Technologies
 
 - React.js
 - JavaScript (ES6+)
+- HTML5
 - CSS3
-- OpenWeather API
 - Vite
-- React Icons
+- Open-Meteo API
+- React Hooks
 
-## Installation
+## 📦 Installation
 
 Clone the repository:
 
