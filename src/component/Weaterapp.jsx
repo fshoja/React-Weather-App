@@ -25,8 +25,6 @@ export default function Weaterapp() {
       .then((res) => res.json())
       .then((data) => {
 
-        console.log(data);
-
         if (data.cod === 404) {
           setError(true);
           return;
@@ -43,6 +41,7 @@ export default function Weaterapp() {
 
   }, [city]);
 
+console.log(city);
 
 
   return (
