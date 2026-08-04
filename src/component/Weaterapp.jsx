@@ -11,7 +11,7 @@ export default function Weaterapp() {
 
   const appData = {
     url: 'https://api.openweathermap.org/data/2.5/weather?q=',
-    key: '45679eb97a3df93e1ff5a3b1bbb36538'
+  key: import.meta.env.VITE_WEATHER_API_KEY
   }
 
 
